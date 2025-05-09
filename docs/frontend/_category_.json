@@ -1,0 +1,8 @@
+{
+  "label": "Frontend Integration",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Integrate Ficrypt OAuth seamlessly into any frontend application—whether you’re building a Single Page App (SPA) or a Server-Side Rendered (SSR) site. This section provides step-by-step guides for popular frameworks like React, Vue, and Angular, covering token handling, redirect flows, login UI customization, and secure session management. Choose your stack below to get started."
+  }
+}

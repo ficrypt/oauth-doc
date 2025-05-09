@@ -1,0 +1,8 @@
+{
+  "label": "Vue",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Integrate Ficrypt OAuth smoothly into your Vue applications, whether you’re building a classic Single Page App (SPA) using Vue CLI or Vite, or a Server-Side Rendered (SSR) app with Nuxt. This section covers everything from authentication flow setup and route protection to token storage and UI customization—tailored specifically for the Vue ecosystem. Select SPA or SSR below to get started."
+  }
+}
