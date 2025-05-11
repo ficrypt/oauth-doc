@@ -1,6 +1,6 @@
 {
   "label": "React",
-  "position": 2,
+  "position": 1,
   "link": {
     "type": "generated-index",
     "description": "This section walks you through integrating Ficrypt OAuth into your React applications—whether you’re building a client-side Single Page App (SPA) with libraries like Vite or CRA, or a Server-Side Rendered (SSR) app with frameworks like Next.js. Learn how to implement secure login flows, manage tokens, handle redirects, and customize authentication UI—all with clear, React-specific guidance."

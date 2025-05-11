@@ -1,47 +1,29 @@
 ---
 sidebar_position: 1
 ---
-
 # Get Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to Ficrypt OAuth! This guide will help you set up your developer account and obtain the credentials needed to begin integrating secure authentication into your applications.
 
-## Getting Started
+---
 
-Get started by **creating a new site**.
+## Create an Account
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+To get started, you’ll need access to the Ficrypt OAuth Admin Console.
 
-### What you'll need
+If you don’t already have an account, [create one here](https://oauth.admin.ficrypt.com/sign-up) — it’s free and only takes a minute.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Get Your Client ID
 
-## Generate a new site
+Follow these steps to retrieve your API credentials:
 
-Generate a new Docusaurus site using the **classic template**.
+1. [Sign in](https://oauth.admin.ficrypt.com) to the Ficrypt OAuth Admin Console.
+2. In the left sidebar, navigate to **Configuration**.
+3. Click on the **API Credentials** tab.
+4. Copy your **Client ID** and **Client Secret** — you’ll need them in the upcoming integration steps.
 
-The classic template will automatically be added to your project after you run the command:
+> ⚠️ Keep your credentials secure and do not share them publicly.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+---
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Once you have your credentials, head over to the integration section that matches your tech stack to continue.

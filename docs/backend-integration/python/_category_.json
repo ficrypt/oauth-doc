@@ -1,0 +1,8 @@
+{
+  "label": "Python",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Set up secure OAuth authentication in your Python backend. This guide walks through token validation, session handling, and securing routes using common patterns and tools from the Python ecosystem."
+  }
+}

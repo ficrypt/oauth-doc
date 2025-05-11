@@ -1,0 +1,8 @@
+{
+  "label": "Java",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Integrate Ficrypt OAuth into your Java backend with a focus on secure token handling, user sessions, and scalable auth logic. Ideal for both monolithic and microservice architectures."
+  }
+}

@@ -16,18 +16,18 @@ services:
     networks:
       - localnet
 
-#  ui-prod:
-#    build:
-#      dockerfile: Dockerfile
-#      context: .
-#      target: runner
-#    labels:
-#      - 'traefik.enable=true'
-#      - 'traefik.http.routers.ui-prod.rule=HostRegexp(`oauth.doc.prod.lvh.me`)'
-#      - 'traefik.http.routers.ui-prod.entrypoints=web'
-#      - 'traefik.http.services.ui-prod.loadbalancer.server.port=9021'
-#    networks:
-#      - localnet
+  ui-prod:
+    build:
+      dockerfile: Dockerfile
+      context: .
+      target: runner
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.ui-prod.rule=HostRegexp(`oauth.doc.prod.lvh.me`)'
+      - 'traefik.http.routers.ui-prod.entrypoints=web'
+      - 'traefik.http.services.ui-prod.loadbalancer.server.port=9021'
+    networks:
+      - localnet
 
   traefik:
     image: traefik:v3

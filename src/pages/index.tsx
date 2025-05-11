@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomePageTechStackSelector from '@site/src/components/HomePageTechStackSelector';
 import Heading from '@theme/Heading';
 import ThemedImage from '@theme/ThemedImage'
 
@@ -28,11 +29,12 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--primary button--lg"
             to="/docs/intro">
-            Tutorial
+            Tutorial - Get Started
           </Link>
         </div>
+        <HomePageTechStackSelector />
       </div>
     </header>
   );

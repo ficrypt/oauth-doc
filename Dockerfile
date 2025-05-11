@@ -16,15 +16,10 @@ ENV NODE_ENV production
 
 RUN npm run build
 
-FROM node:23.10-alpine AS runner
-WORKDIR /app
+FROM nginx:alpine AS runner
+COPY --from=builder /app/build /usr/share/nginx/html
 
-ENV NODE_ENV production
-# If using standalone output
-COPY --from=builder /app/public ./public
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./package.json
+COPY nginx.conf /etc/nginx/nginx.conf
 
-EXPOSE 9001
-CMD [ "npm", "run", "start" ]
+EXPOSE 9021
+CMD ["nginx", "-g", "daemon off;"]

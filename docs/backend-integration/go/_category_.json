@@ -1,0 +1,8 @@
+{
+  "label": "Go/Golang",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Implement OAuth authentication in Go with a clean, efficient approach. Learn how to handle tokens, protect endpoints, and build a robust backend powered by Ficrypt."
+  }
+}
