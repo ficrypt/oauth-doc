@@ -12,7 +12,7 @@ services:
       - 'traefik.enable=true'
       - 'traefik.http.routers.ui.rule=HostRegexp(`oauth.doc.lvh.me`)'
       - 'traefik.http.routers.ui.entrypoints=web'
-      - 'traefik.http.services.ui.loadbalancer.server.port=9020'
+      - 'traefik.http.services.ui.loadbalancer.server.port=9030'
     networks:
       - localnet
 
@@ -25,7 +25,7 @@ services:
       - 'traefik.enable=true'
       - 'traefik.http.routers.ui-prod.rule=HostRegexp(`oauth.doc.prod.lvh.me`)'
       - 'traefik.http.routers.ui-prod.entrypoints=web'
-      - 'traefik.http.services.ui-prod.loadbalancer.server.port=9021'
+      - 'traefik.http.services.ui-prod.loadbalancer.server.port=9031'
     networks:
       - localnet
 

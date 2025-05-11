@@ -21,5 +21,5 @@ COPY --from=builder /app/build /usr/share/nginx/html
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
-EXPOSE 9021
+EXPOSE 9031
 CMD ["nginx", "-g", "daemon off;"]
